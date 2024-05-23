@@ -1,0 +1,123 @@
+@import url(../index.css);
+
+header a {
+  color: var(--black);
+}
+
+.content {
+  padding: 15px;
+}
+.content p {
+  font-size: 12px;
+}
+.slide {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  overflow-x: scroll;
+  margin: 15px 0px;
+}
+.slide img {
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.target-amount-amd-raised {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.target-amount-amd-raised i {
+  background: var(--green);
+  padding: 15px;
+  color: var(--white);
+  border-radius: 10px;
+}
+.target-amount-amd-raised p {
+  font-size: 14px;
+}
+.target-amount-amd-raised .of {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.description-p {
+  margin: 12px 0px;
+}
+
+button.green-button {
+  cursor: pointer;
+  background: var(--green);
+  color: var(--white);
+  border: none;
+  padding: 20px 22px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+}
+
+/*_____DONATE_MODAL________*/
+
+.donate-modal {
+  background: #000000ad;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+}
+.donate-modal.on {
+  visibility: visible;
+  opacity: 1;
+}
+.donate-modal .close-modal {
+  background-color: var(--white);
+  width: 60px;
+  margin: 12px auto;
+  display: block;
+  border-radius: 2px;
+  border: none;
+  height: 4px;
+}
+.donate-modal .modal {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  visibility: hidden;
+  opacity: 0;
+}
+.donate-modal.on .modal {
+  visibility: visible;
+  opacity: 1;
+}
+
+.donate-modal .modal div {
+  height: 0px;
+  background: var(--white);
+  border-radius: 15px 15px 0 0;
+  transition: 0.6s;
+  padding: 15px;
+}
+.donate-modal.on .modal div {
+  visibility: visible;
+  opacity: 1;
+  height: 350px;
+}
+.donate-modal .modal div p {
+  margin: 15px 0px;
+}
+.donate-modal .modal input,
+.donate-modal .modal select {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  margin: 15px 0 10px 0;
+}

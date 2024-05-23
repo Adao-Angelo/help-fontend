@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "medium";
+  src: url(./Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(./Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "semibold";
+  src: url(./Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "light";
+  src: url(./Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "regular";
+  src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "s";
+  src: url(./Satisfy-Regular.ttf);
+}
+* {
+  font-family: "regular";
+}
+
+.font-s{
+  font-family: "s";
+}
+.font-bold {
+  font-family: "bold";
+}
+.font-medium {
+  font-family: "medium";
+}
+.font-light {
+  font-family: "light";
+}
+.font-semibold {
+  font-family: "semibold";
+}
+.font-regular {
+  font-family: "regular";
+}
+
+.font-italic {
+  font-style: italic;
+}

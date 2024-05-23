@@ -1,0 +1,13 @@
+@import url(../index.css);
+.text-gray {
+  color: var(--gray);
+}
+.text-black {
+  color: var(--black);
+}
+.text-green {
+  color: var(--green);
+}
+.text-white {
+  color: var(--white);
+}

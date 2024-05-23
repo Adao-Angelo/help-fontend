@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/pages-css/details.css" />
+    <title>Detail</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <a href="./home.html" class="font-medium">back</a>
+        <a href="#" class="font-medium">Share</a>
+      </header>
+      <div class="content">
+        <div class="slide">
+          <img src="../css/assets/slide/2.jpg" alt="slide" />
+          <img src="../css/assets/slide/1.jpg" alt="slide" />
+          <img src="../css/assets/slide/2.jpg" alt="slide" />
+          <img src="../css/assets/slide/1.jpg" alt="slide" />
+        </div>
+
+        <div class="description">
+          <p class="text-green font-medium">Education</p>
+          <h2>Education Dono For poor Child</h2>
+          <p class="text-gray">20 Days left</p>
+        </div>
+        <div class="target-amount-amd-raised">
+          <dir class="of">
+            <i class="fas fa-location-crosshairs"></i>
+            <div>
+              <p class="text-gray">Target amount</p>
+              <p class="font-medium">$10.000</p>
+            </div>
+          </dir>
+          <dir class="of">
+            <i class="fas fa-location-crosshairs"></i>
+            <div>
+              <p class="text-gray">Raised</p>
+              <p class="font-medium">$50.000</p>
+            </div>
+          </dir>
+        </div>
+        <p class="text-gray">by: <span class="text-green">NCAPA</span></p>
+        <div class="description-p">
+          <p class="text-gray">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+            adipisci, necessitatibus praesentium ex quam architecto dignissimos
+            quibusd
+          </p>
+        </div>
+        <button class="font-medium open-donate-modal green-button">
+          Donate
+        </button>
+      </div>
+    </div>
+    <div class="donate-modal">
+      <div class="modal">
+        <a href="#" class="close-modal"></a>
+        <div>
+          <h4>How Much you want to Donate ?</h4>
+          <p class="text-gray">
+            Please enter de amount of donate in input down
+          </p>
+          <form action="#">
+            <input
+              type="number"
+              class="donate-input"
+              name="donate"
+              placeholder="Enter Here"
+            />
+            <select name="method" id="method">
+              <option value="none">Method of pay</option>
+              <option value="google pay">Google Pay</option>
+              <option value="Visa">Visa</option>
+            </select>
+            <button class="Donate-button green-button font-medium">
+              Pay Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../scripts/scripts-page/details.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+@import url(../index.css);
+
+.flex.no {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+header i {
+  background: var(--green);
+  padding: 10px;
+  color: var(--white);
+  border-radius: 10px;
+}
+header input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid var(--gray);
+  width: 70%;
+}
+
+.content {
+  padding: 15px;
+}
+.content .top {
+  padding: 12px;
+  text-align: center;
+  background: var(--green);
+  border-radius: 15px;
+}
+.content .top button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: var(--white);
+  margin: 10px 0;
+  color: var(--green);
+}
+.category div {
+  text-align: center;
+}
+.category img {
+  width: 25px;
+}
+.category p {
+  font-size: 12px;
+}
+
+.popular a {
+  color: var(--green);
+}
+
+.foundation {
+  padding: 15px;
+  border: 1px solid #09969611;
+  border-radius: 15px;
+  background: #0996960e;
+  margin-top: 12px;
+}
+.foundation h4 {
+  color: var(--black);
+}
+.foundation img {
+  width: 100%;
+  height: 130px;
+  border-radius: 15px;
+}
+.foundation .raised {
+  color: var(--green);
+}
+.foundation .target {
+  font-size: 12px;
+}
+
+.menu {
+  width: 100%;
+  height: 0vh;
+  background: var(--green);
+  color: var(--white);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  position: fixed;
+  top: 0;
+}
+.menu.on {
+  visibility: visible;
+  opacity: 1;
+  height: 100vh;
+}
+.menu a {
+  color: var(--white);
+}
+.menu p {
+  color: var(--white);
+}
+.menu h2 {
+  color: var(--white);
+}
+
+.menu .content .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.menu .menus {
+  margin: 30px 0px;
+}
+.menu .menus a {
+  margin: 15px 10px;
+}
+.menu .menus .logout {
+  margin-top: 40px;
+}

@@ -1,0 +1,47 @@
+@import url(../index.css);
+
+header h1 {
+  font-size: 30px;
+  font-family: "s";
+  color: var(--green);
+}
+
+form {
+  text-align: center;
+  padding: 15px;
+}
+
+form label {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid var(--gray);
+  border-radius: 15px;
+}
+form label input#c {
+  border: none;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  margin: 15px 0 10px 0;
+}
+form button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  color: var(--white);
+  background: var(--green);
+  margin: 12px 0 0 0;
+}
+form p {
+  margin: 25px 0 0 0;
+}
+form p a {
+  color: var(--green);
+}

@@ -1,0 +1,44 @@
+@import url(../index.css);
+
+header a {
+  color: var(--black);
+}
+.content {
+  padding: 15px;
+}
+/*___________ Search _____________ */
+.autocomplete-search-box {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-result {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-result li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.search-result li:hover {
+  background-color: #f0f0f0;
+}
+
+.selected-name {
+  margin: 20px auto;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}

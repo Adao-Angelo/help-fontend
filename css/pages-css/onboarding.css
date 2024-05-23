@@ -1,0 +1,71 @@
+@import url(../index.css);
+
+.container {
+  text-align: center;
+  padding: 50px 0px;
+}
+.content-slide {
+  height: 250px;
+  margin: 0px 0px 20px 0px;
+  padding: 15px;
+}
+
+.content-slide img {
+  width: 100%;
+  border-radius: 15px;
+}
+.content-slide video {
+  width: 100%;
+  border-radius: 15px;
+}
+.descriptions h1 {
+  width: 300px;
+  margin: 15px auto;
+}
+.descriptions p {
+  width: 300px;
+  margin: 20px auto;
+}
+.slide-controlls .slide-pages {
+  position: relative;
+  margin: 20px 0px 50px 0px;
+}
+.slide-controlls .slide-pages div {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slide-controlls .slide-pages span.on {
+  background: var(--green);
+  padding: 2px 12px;
+  border-radius: 10px;
+}
+.slide-controlls .slide-pages span {
+  transition: 0.5s;
+  background: #dbdbdb;
+  padding: 2px 3px;
+  border-radius: 10px;
+}
+.slide-controlls .next-slide-btn {
+  padding: 15px;
+}
+.slide-controlls .next-slide-btn i {
+  cursor: pointer;
+  background: var(--green);
+  padding: 20px 22px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+.slide-controlls .next-slide-btn a {
+  cursor: pointer;
+  background: var(--green);
+  padding: 20px 22px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+}
