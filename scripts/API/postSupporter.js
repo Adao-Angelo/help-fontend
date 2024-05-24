@@ -1,13 +1,13 @@
 import { base_url } from "../utils/baseUrl.js";
-export async function post_user_storage(user) {
+export async function post_user_storage(supporter) {
   const options = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(user),
+    body: JSON.stringify(supporter),
   };
-  return await fetch(`${base_url}/users`, options)
+  return await fetch(`${base_url}/apoiador`, options)
     .then((res) => {
       if (res.status >= 400) {
         throw new Error(res.status + " Ops error try again later");

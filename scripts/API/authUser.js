@@ -1,5 +1,6 @@
 import { base_url } from "../utils/baseUrl.js";
 import { setCookie } from "../utils/setCookies.js";
+import { get_user_storage } from "./getUserStorage.js";
 export async function auth_user_storage(auth) {
   const options = {
     method: "POST",
@@ -15,9 +16,12 @@ export async function auth_user_storage(auth) {
       }
       return res.json();
     })
-    .then((res) => {
+    .then(async (res) => {
       setCookie("token", res.response, 1);
+      await get_user_storage(auth.email);
       window.location = "./home.html";
     })
-    .catch((err) => console.error(err));
+    .catch((err) => {
+      alert(err);
+    });
 }
