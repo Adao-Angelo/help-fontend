@@ -1,15 +1,4 @@
-const people = [
-  "Chris adams",
-  "Anne",
-  "Colin",
-  "Terri",
-  "Phil",
-  "Lola",
-  "Sam",
-  "Kay",
-  "Bruce",
-];
-
+import { people } from "../base/people.js";
 /*__________SEARCH - LOGIC ___________ */
 const searchBox = document.querySelector(".search-box");
 const searchResult = document.querySelector(".search-result");
