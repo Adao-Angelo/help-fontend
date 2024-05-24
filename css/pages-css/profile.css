@@ -3,6 +3,7 @@
   background: var(--white);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  font-size: 12px;
 }
 .user img {
   width: 50px;
@@ -77,4 +78,32 @@
   cursor: pointer;
   margin-top: 20px;
   border-radius: 15px;
+}
+
+.data-room .flex {
+  padding: 15px 0px;
+}
+
+.data-room {
+  padding: 15px;
+  border: 1px solid #09969611;
+  border-radius: 15px;
+  background: #0996960e;
+  margin-top: 12px;
+}
+.data-room h3 {
+  margin: 15px 0 12px 0;
+}
+.data-room img {
+  width: 100%;
+}
+.data-room a {
+  color: var(--green);
+  padding: 10px;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.data-room p {
+  margin: 12px 0px;
 }

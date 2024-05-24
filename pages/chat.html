@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini</title>
+    <link rel="stylesheet" href="../css/pages-css/chat.css" />
+  </head>
+  <body>
+    <div id="chat-container">
+      <header>
+        <span class="fab fa-airbnb text-green"></span>
+        <h2 class="text-black">AI Training</h2>
+      </header>
+      <div id="messages-container"></div>
+      <form id="message-form">
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Enter your message.."
+          required
+        />
+        <div>
+          <button type="submit">
+            <i class="fas fa-file-import"></i>
+          </button>
+          <button class="stop-voice" type="button">
+            <i class="fas fa-ban"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+    <script type="module" src="../scripts/scripts-page/chat.js"></script>
+  </body>
+</html>
